@@ -74,20 +74,3 @@ Validasi dihitung ulang setiap state berubah (deklaratif):
 | Persetujuan | Harus dicentang |
 
 Setiap aturan menghasilkan boolean `errorXxx` yang dipakai oleh `isError` dan `supportingText`. Variabel `formValid` bernilai `true` hanya jika semua aturan terpenuhi.
-
-## Screenshot
-
-Tambahkan di folder `screenshots/`:
-
-- `running.png`: aplikasi saat berjalan
-- `validasi-gagal.png`: kondisi validasi gagal
-- `validasi-berhasil.png`: kondisi validasi berhasil
-
-![Running](screenshots/running.png)
-![Validasi gagal](screenshots/validasi-gagal.png)
-![Validasi berhasil](screenshots/validasi-berhasil.png)
-
-## Contoh Data Uji
-
-- **Gagal:** kosongkan semua kolom lalu klik *Aktifkan Akun*.
-- **Berhasil:** Nama `Dewi Anggraini`, ID `EMP-2026`, email `dewi@kantorku.co.id`, sandi `Kantor2026`, konfirmasi sama, centang persetujuan.
